@@ -27,12 +27,6 @@ public class methods {
         }
     }
 
-    static void showDict(Map<Integer, Integer> dict) {
-        for (Map.Entry<Integer, Integer> e : dict.entrySet()) {
-            System.out.printf("%d встречается %d раз(а)\n", e.getKey(), e.getValue());
-        }
-    }
-
     static Map<Integer, Integer> fillDict(Map<Integer, Integer> dict, int[] array){
         for (int i = 0; i < array.length; i++) {
             dict.put(array[i], 0);
