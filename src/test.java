@@ -16,7 +16,5 @@ public class test {
         dictionary = methods.fillDict(dictionary, numbers);
         System.out.println(dictionary.toString());
 
-        System.out.println("\n");
-
     }
 }
